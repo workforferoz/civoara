@@ -2,6 +2,10 @@ import { NextResponse } from "next/server";
 import { getCitizenIssues } from "@/lib/services/issue.service";
 import { processSlaEscalations } from "@/lib/sla/escalation.processor";
 
+export async function GET(request: Request) {
+  return POST(request);
+}
+
 export async function POST(request: Request) {
   // Security Guard: Check CRON_SECRET or dev mode
   const authHeader = request.headers.get("authorization");
