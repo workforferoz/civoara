@@ -84,7 +84,7 @@ export const INITIAL_ROUTING_RULES: RoutingRule[] = [
   {
     id: "r-exact-101-pothole",
     category: "pothole",
-    ward_id: "w1010000-0000-0000-0000-000000000101",
+    ward_id: "a1010000-0000-0000-0000-000000000101",
     department_id: "d1111111-1111-1111-1111-111111111111", // PWD
     default_officer_id: "officer-ramesh-kumar",
     priority: 1,
@@ -96,7 +96,7 @@ export const INITIAL_ROUTING_RULES: RoutingRule[] = [
   {
     id: "r-exact-102-garbage",
     category: "garbage",
-    ward_id: "w1020000-0000-0000-0000-000000000102",
+    ward_id: "a1020000-0000-0000-0000-000000000102",
     department_id: "d2222222-2222-2222-2222-222222222222", // SWM
     default_officer_id: "officer-swm-lead",
     priority: 1,

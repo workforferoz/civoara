@@ -45,7 +45,7 @@ export default function AdminRestructuringPage() {
   const [actionType, setActionType] = useState<"merge_departments" | "transfer_ward">("transfer_ward");
   const [sourceDept, setSourceDept] = useState("d2222222-2222-2222-2222-222222222222"); // SWM
   const [targetDept, setTargetDept] = useState("d1111111-1111-1111-1111-111111111111"); // PWD
-  const [selectedWard, setSelectedWard] = useState("w1020000-0000-0000-0000-000000000102"); // Ward 102
+  const [selectedWard, setSelectedWard] = useState("a1020000-0000-0000-0000-000000000102"); // Ward 102
   const [migrationPolicy, setMigrationPolicy] = useState<"fair_pro_rata" | "inherited_deadline">("fair_pro_rata");
 
   const [preview, setPreview] = useState<RestructuringPreview | null>(null);

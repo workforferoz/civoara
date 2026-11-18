@@ -20,7 +20,7 @@ export interface WardBoundary {
  */
 export const DEMO_WARDS: WardBoundary[] = [
   {
-    id: "w1010000-0000-0000-0000-000000000101",
+    id: "a1010000-0000-0000-0000-000000000101",
     wardNumber: "WARD-101",
     name: "Central Business District",
     city: "Bengaluru",
@@ -34,7 +34,7 @@ export const DEMO_WARDS: WardBoundary[] = [
     ],
   },
   {
-    id: "w1020000-0000-0000-0000-000000000102",
+    id: "a1020000-0000-0000-0000-000000000102",
     wardNumber: "WARD-102",
     name: "Indiranagar",
     city: "Bengaluru",
@@ -48,7 +48,7 @@ export const DEMO_WARDS: WardBoundary[] = [
     ],
   },
   {
-    id: "w1030000-0000-0000-0000-000000000103",
+    id: "a1030000-0000-0000-0000-000000000103",
     wardNumber: "WARD-103",
     name: "Koramangala",
     city: "Bengaluru",
@@ -62,7 +62,7 @@ export const DEMO_WARDS: WardBoundary[] = [
     ],
   },
   {
-    id: "w1040000-0000-0000-0000-000000000104",
+    id: "a1040000-0000-0000-0000-000000000104",
     wardNumber: "WARD-104",
     name: "Whitefield",
     city: "Bengaluru",
@@ -76,7 +76,7 @@ export const DEMO_WARDS: WardBoundary[] = [
     ],
   },
   {
-    id: "w1050000-0000-0000-0000-000000000105",
+    id: "a1050000-0000-0000-0000-000000000105",
     wardNumber: "WARD-105",
     name: "Malleshwaram",
     city: "Bengaluru",
